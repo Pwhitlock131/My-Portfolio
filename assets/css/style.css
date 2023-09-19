@@ -43,6 +43,19 @@ nav a {
     color: #fff;
     font-weight: bold;
 }
+/* Fuck this */
+/* .about {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 15px;
+} */
+
+.Title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 section {
     padding: 25px;
@@ -55,7 +68,7 @@ section h2 {
     margin-bottom: 15px;
 }
 
-footer {
+aside {
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -64,32 +77,35 @@ footer {
     min-height: 500px;
 }
 
-footer h1 {
+aside h1 {
     /* background-color: green; */
+    font-size: 35px;
+    text-decoration: underline;
     padding: 5px;
     width: 20%;
 }
 
-footer article {
+aside article {
     /* background-color: orange; */
     width: 80%;
 
 }
 
 @media screen and (max-width: 900px) {
-    footer {
+    aside {
         flex-direction: column;
     }
-    footer h1 {
+    aside h1 {
         width: 100%;
     }
-    footer article {
+    aside article {
         width: 100%;
     }
 }
 #big-card {
-    background-color: beige;
+    /* background-color: beige; */
     height: 50%;
+    border: 2px solid aqua;
 }
 
 #cards {
@@ -123,8 +139,8 @@ footer article {
 }
 
 #Horiseon {
-    /* flex: 4 0 100%; */
-    width: 35%;
+    flex: 4 0 100%;
+    width: 80%;
     height: 100%;
 
 }
